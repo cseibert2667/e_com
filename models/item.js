@@ -7,7 +7,7 @@ const itemSchema = new Schema({
     condition: String,
     price: Number,
     image: String, // Array?
-    location: String, // City, State or Zip ... GoogleMaps api?
+    location: String, // City, State or Zip - this could be pulled from the user OR allow for an alternate location to be input
     seller: String, // This will need to be pulled from the user's account upon posting
 })
 
